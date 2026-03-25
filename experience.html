@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Laili Salsabila</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="js/tailwind.config.js"></script>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/experience.css">
+</head>
+<body class="antialiased" data-page="experience">
+    
+    <div id="siteHeader"></div>
+
+    <!-- Header Section -->
+    <section class="pt-32 pb-12">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="text-muted-gold font-medium mb-2 fade-in">Perjalanan Karir</p>
+            <h1 class="text-4xl md:text-5xl font-bold text-dark-slate mb-4 fade-in">Pengalaman Saya</h1>
+            <p class="text-dark-slate/70 max-w-2xl mx-auto fade-in">
+                Berbagai pengalaman magang, organisasi, dan pendidikan yang telah membentuk perjalanan karir saya.
+                Klik pada setiap kartu untuk melihat detail lengkapnya.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience Cards Section -->
+    <section class="py-12 pb-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Internship Card -->
+                <div class="fade-in" onclick="openModal('internshipModal')">
+                    <div class="hover-card bg-white rounded-2xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-muted-gold/20 to-sage-green/20 flex items-center justify-center">
+                            <div class="w-24 h-24 rounded-full bg-white/80 flex items-center justify-center">
+                                <i class="fas fa-briefcase text-4xl text-muted-gold"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="px-3 py-1 bg-muted-gold/10 text-muted-gold text-xs font-medium rounded-full">Magang</span>
+                                <span class="text-sm text-dark-slate/60">Des 2025 - Jan 2026</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-dark-slate mb-1">Data Entry Staff</h3>
+                            <p class="text-sage-green font-medium mb-3">Pt IndoArsip</p>
+                            <p class="text-dark-slate/70 text-sm leading-relaxed mb-4">
+                                Bertanggung jawab dalam input dan verifikasi data, memastikan akurasi informasi...
+                            </p>
+                            <div class="flex items-center text-muted-gold text-sm font-medium">
+                                <span>Lihat Detail</span>
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Organization Card -->
+                <div class="fade-in" onclick="openModal('organizationModal')">
+                    <div class="hover-card bg-white rounded-2xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-gradient-to-br from-sage-green/20 to-muted-gold/20 flex items-center justify-center">
+                            <div class="w-24 h-24 rounded-full bg-white/80 flex items-center justify-center">
+                                <i class="fas fa-users text-4xl text-sage-green"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="px-3 py-1 bg-sage-green/10 text-sage-green text-xs font-medium rounded-full">Organisasi</span>
+                                <span class="text-sm text-dark-slate/60">2025 - 2026</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-dark-slate mb-1">Ketua Divisi Entrepreneurship</h3>
+                            <p class="text-muted-gold font-medium mb-3">HIMASI - Universitas Nasional</p>
+                            <p class="text-dark-slate/70 text-sm leading-relaxed mb-4">
+                                Memimpin divisi untuk merancang program kewirausahaan mahasiswa...
+                            </p>
+                            <div class="flex items-center text-muted-gold text-sm font-medium">
+                                <span>Lihat Detail</span>
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- Education Section -->
+            <div class="mt-16">
+                <h2 class="text-2xl font-bold text-dark-slate mb-8 text-center fade-in">
+                    <i class="fas fa-graduation-cap text-muted-gold mr-2"></i>
+                    Riwayat Pendidikan
+                </h2>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="fade-in bg-white rounded-xl p-6 shadow-md flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-full bg-muted-gold/10 flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-university text-2xl text-muted-gold"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark-slate">Universitas Nasional</h4>
+                            <p class="text-dark-slate/70 text-sm">2023 - 2027</p>
+                            <p class="text-sage-green text-sm">Sedang Ditempuh</p>
+                        </div>
+                    </div>
+                    
+                    <div class="fade-in bg-white rounded-xl p-6 shadow-md flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-full bg-sage-green/10 flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-school text-2xl text-sage-green"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark-slate">SMA Negeri 51 Jakarta</h4>
+                            <p class="text-dark-slate/70 text-sm">2020 - 2023</p>
+                            <p class="text-muted-gold text-sm">Lulus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Modal -->
+    <div id="internshipModal" class="modal">
+        <div class="modal-backdrop" onclick="closeModal('internshipModal')"></div>
+        <div class="modal-content w-full max-w-4xl mx-4 my-8">
+            <div class="modal-surface rounded-2xl shadow-2xl overflow-hidden">
+                <!-- Modal Header -->
+                <div class="bg-gradient-to-r from-muted-gold/20 to-sage-green/20 p-6 relative">
+                    <button onclick="closeModal('internshipModal')" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/80 hover:bg-white flex items-center justify-center transition-colors">
+                        <i class="fas fa-times text-dark-slate"></i>
+                    </button>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center">
+                            <i class="fas fa-briefcase text-2xl text-muted-gold"></i>
+                        </div>
+                        <div>
+                            <span class="px-3 py-1 bg-muted-gold/20 text-muted-gold text-xs font-medium rounded-full">Magang</span>
+                            <h2 class="text-2xl font-bold text-dark-slate mt-2">Data Entry Staff</h2>
+                            <p class="text-dark-slate/70">Pt IndoArsip | Desember 2025 - Januari 2026</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal Body -->
+                <div class="p-6">
+                    <!-- Description -->
+                    <div class="mb-8">
+                        <h3 class="text-lg font-bold text-dark-slate mb-3">
+                            <i class="fas fa-tasks text-muted-gold mr-2"></i>
+                            Deskripsi Pekerjaan
+                        </h3>
+                        <p class="text-dark-slate/80 leading-relaxed">
+                            Bertanggung jawab dalam input dan verifikasi data, memastikan akurasi informasi, serta membantu administrasi harian menggunakan Excel. Selama magang, saya belajar pentingnya ketelitian dan efisiensi dalam mengelola data.
+                        </p>
+                    </div>
+                    
+                    <!-- Responsibilities -->
+                    <div class="mb-8">
+                        <h3 class="text-lg font-bold text-dark-slate mb-3">
+                            <i class="fas fa-check-circle text-sage-green mr-2"></i>
+                            Tanggung Jawab
+                        </h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check text-muted-gold mt-1"></i>
+                                <span class="text-dark-slate/80">Melakukan input data dengan akurasi tinggi ke dalam sistem perusahaan</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check text-muted-gold mt-1"></i>
+                                <span class="text-dark-slate/80">Memverifikasi dan memastikan kevalidan data yang masuk</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check text-muted-gold mt-1"></i>
+                                <span class="text-dark-slate/80">Membantu administrasi harian menggunakan Microsoft Excel</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check text-muted-gold mt-1"></i>
+                                <span class="text-dark-slate/80">Menyusun laporan data berkala untuk evaluasi</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Skills Gained -->
+                    <div class="mb-8">
+                        <h3 class="text-lg font-bold text-dark-slate mb-3">
+                            <i class="fas fa-lightbulb text-muted-gold mr-2"></i>
+                            Skill yang Dikembangkan
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-muted-gold/10 text-muted-gold text-sm rounded-full">Data Entry</span>
+                            <span class="px-3 py-1 bg-sage-green/10 text-sage-green text-sm rounded-full">Microsoft Excel</span>
+                            <span class="px-3 py-1 bg-muted-gold/10 text-muted-gold text-sm rounded-full">Attention to Detail</span>
+                            <span class="px-3 py-1 bg-sage-green/10 text-sage-green text-sm rounded-full">Time Management</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Photo Gallery -->
+                    <div>
+                        <h3 class="text-lg font-bold text-dark-slate mb-4">
+                            <i class="fas fa-images text-sage-green mr-2"></i>
+                            Dokumentasi Kegiatan
+                        </h3>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <img src="assets/Experience/Magang/Dataentry1.png" alt="Dokumentasi magang Data Entry 1" class="gallery-img w-full aspect-square object-cover rounded-xl shadow-sm cursor-pointer">
+                            <img src="assets/Experience/Magang/Dataentry2.png" alt="Dokumentasi magang Data Entry 2" class="gallery-img w-full aspect-square object-cover rounded-xl shadow-sm cursor-pointer">
+                            <img src="assets/Experience/Magang/Dataentry3.png" alt="Dokumentasi magang Data Entry 3" class="gallery-img w-full aspect-square object-cover rounded-xl shadow-sm cursor-pointer">
+                        </div>
+                        <p class="text-sm text-dark-slate/50 mt-3 text-center">*Dokumentasi kegiatan magang di Pt IndoArsip</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Organization Modal -->
+    <div id="organizationModal" class="modal">
+        <div class="modal-backdrop" onclick="closeModal('organizationModal')"></div>
+        <div class="modal-content w-full max-w-4xl mx-4 my-8">
+            <div class="modal-surface rounded-2xl shadow-2xl overflow-hidden">
+                <!-- Modal Header -->
+                <div class="bg-gradient-to-r from-sage-green/20 to-muted-gold/20 p-6 relative">
+                    <button onclick="closeModal('organizationModal')" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/80 hover:bg-white flex items-center justify-center transition-colors">
+                        <i class="fas fa-times text-dark-slate"></i>
+                    </button>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center">
+                            <i class="fas fa-users text-2xl text-sage-green"></i>
+                        </div>
+                        <div>
+                            <span class="px-3 py-1 bg-sage-green/20 text-sage-green text-xs font-medium rounded-full">Organisasi</span>
+                            <h2 class="text-2xl font-bold text-dark-slate mt-2">Ketua Divisi Entrepreneurship</h2>
+                            <p class="text-dark-slate/70">HIMASI - Universitas Nasional | 2025 - 2026</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal Body -->
+                <div class="p-6">
+                    <!-- Description -->
+                    <div class="mb-8">
+                        <h3 class="text-lg font-bold text-dark-slate mb-3">
+                            <i class="fas fa-tasks text-sage-green mr-2"></i>
+                            Deskripsi Jabatan
+                        </h3>
+                        <p class="text-dark-slate/80 leading-relaxed">
+                            Memimpin divisi Entrepreneurship di HIMASI (Himpunan Mahasiswa Sistem Informasi) Universitas Nasional. Bertanggung jawab dalam merancang dan mengimplementasikan program kewirausahaan untuk mahasiswa, mengelola event, serta mengembangkan mindset bisnis bagi anggota.
+                        </p>
+                    </div>
+                    
+                    <!-- Responsibilities -->
+                    <div class="mb-8">
+                        <h3 class="text-lg font-bold text-dark-slate mb-3">
+                            <i class="fas fa-check-circle text-muted-gold mr-2"></i>
+                            Tanggung Jawab & Program
+                        </h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check text-sage-green mt-1"></i>
+                                <span class="text-dark-slate/80">Merancang program kewirausahaan mahasiswa secara berkala</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check text-sage-green mt-1"></i>
+                                <span class="text-dark-slate/80">Mengelola dan mengkoordinasikan pelaksanaan event organisasi</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check text-sage-green mt-1"></i>
+                                <span class="text-dark-slate/80">Mengembangkan mindset bisnis dan kewirausahaan bagi anggota</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check text-sage-green mt-1"></i>
+                                <span class="text-dark-slate/80">Membangun kerjasama dengan pihak eksternal untuk program entrepreneurship</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fas fa-check text-sage-green mt-1"></i>
+                                <span class="text-dark-slate/80">Memimpin rapat rutin divisi dan evaluasi program</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Achievements -->
+                    <div class="mb-8">
+                        <h3 class="text-lg font-bold text-dark-slate mb-3">
+                            <i class="fas fa-trophy text-muted-gold mr-2"></i>
+                            Pencapaian
+                        </h3>
+                        <div class="grid sm:grid-cols-2 gap-4">
+                            <div class="bg-white rounded-xl p-4 shadow-sm">
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-10 h-10 rounded-full bg-muted-gold/10 flex items-center justify-center">
+                                        <i class="fas fa-calendar-check text-muted-gold"></i>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-dark-slate">10+ Event</p>
+                                        <p class="text-sm text-dark-slate/60">Berhasil terlaksana</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-xl p-4 shadow-sm">
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-10 h-10 rounded-full bg-sage-green/10 flex items-center justify-center">
+                                        <i class="fas fa-user-friends text-sage-green"></i>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-dark-slate">50+ Anggota</p>
+                                        <p class="text-sm text-dark-slate/60">Aktif dalam divisi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skills Gained -->
+                    <div class="mb-8">
+                        <h3 class="text-lg font-bold text-dark-slate mb-3">
+                            <i class="fas fa-lightbulb text-sage-green mr-2"></i>
+                            Skill yang Dikembangkan
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-sage-green/10 text-sage-green text-sm rounded-full">Leadership</span>
+                            <span class="px-3 py-1 bg-muted-gold/10 text-muted-gold text-sm rounded-full">Event Management</span>
+                            <span class="px-3 py-1 bg-sage-green/10 text-sage-green text-sm rounded-full">Teamwork</span>
+                            <span class="px-3 py-1 bg-muted-gold/10 text-muted-gold text-sm rounded-full">Public Speaking</span>
+                            <span class="px-3 py-1 bg-sage-green/10 text-sage-green text-sm rounded-full">Strategic Planning</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Photo Gallery -->
+                    <div>
+                        <h3 class="text-lg font-bold text-dark-slate mb-4">
+                            <i class="fas fa-images text-muted-gold mr-2"></i>
+                            Dokumentasi Kegiatan
+                        </h3>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <img src="assets/Experience/Organisasi/Hima1.png" alt="Dokumentasi HIMASI 1" class="gallery-img w-full aspect-square object-cover rounded-xl shadow-sm cursor-pointer">
+                            <img src="assets/Experience/Organisasi/Hima2.png" alt="Dokumentasi HIMASI 2" class="gallery-img w-full aspect-square object-cover rounded-xl shadow-sm cursor-pointer">
+                            <img src="assets/Experience/Organisasi/Hima3.png" alt="Dokumentasi HIMASI 3" class="gallery-img w-full aspect-square object-cover rounded-xl shadow-sm cursor-pointer">
+                            <img src="assets/Experience/Organisasi/Hima4.png" alt="Dokumentasi HIMASI 4" class="gallery-img w-full aspect-square object-cover rounded-xl shadow-sm cursor-pointer">
+                            <img src="assets/Experience/Organisasi/Hima5.png" alt="Dokumentasi HIMASI 5" class="gallery-img w-full aspect-square object-cover rounded-xl shadow-sm cursor-pointer">
+                        </div>
+                        <p class="text-sm text-dark-slate/50 mt-3 text-center">*Dokumentasi kegiatan organisasi HIMASI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="siteFooter"></div>
+
+    <script src="js/layout.js"></script>
+    <script src="js/experience.js"></script>
+</body>
+</html>

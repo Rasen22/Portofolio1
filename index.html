@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Laili Salsabila</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="js/tailwind.config.js"></script>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="antialiased" data-page="home">
+    
+    <div id="siteHeader"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center pt-20">
+        <div class="max-w-6xl mx-auto px-6 py-16 w-full">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <p class="text-muted-gold font-medium mb-4 tracking-wide">Selamat Datang</p>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-dark-slate leading-tight mb-6">
+                        Halo, Saya <span class="text-muted-gold">Laili Salsabila</span>.
+                    </h1>
+                    <p class="text-lg text-dark-slate/80 leading-relaxed mb-8">
+                        Mahasiswa Universitas Nasional yang tertarik pada pengelolaan data, desain visual, dan pengembangan organisasi.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-3 mb-8">
+                        <span class="skill-badge px-4 py-2 bg-white rounded-full text-sm font-medium text-dark-slate shadow-sm border border-muted-gold/20 cursor-default">
+                            <i class="fab fa-canva mr-2 text-sage-green"></i>Canva
+                        </span>
+                        <span class="skill-badge px-4 py-2 bg-white rounded-full text-sm font-medium text-dark-slate shadow-sm border border-muted-gold/20 cursor-default">
+                            <i class="fab fa-figma mr-2 text-sage-green"></i>Figma
+                        </span>
+                        <span class="skill-badge px-4 py-2 bg-white rounded-full text-sm font-medium text-dark-slate shadow-sm border border-muted-gold/20 cursor-default">
+                            <i class="fab fa-html5 mr-2 text-sage-green"></i>HTML
+                        </span>
+                        <span class="skill-badge px-4 py-2 bg-white rounded-full text-sm font-medium text-dark-slate shadow-sm border border-muted-gold/20 cursor-default">
+                            <i class="fab fa-js mr-2 text-sage-green"></i>TypeScript
+                        </span>
+                        <span class="skill-badge px-4 py-2 bg-white rounded-full text-sm font-medium text-dark-slate shadow-sm border border-muted-gold/20 cursor-default">
+                            <i class="fas fa-file-excel mr-2 text-sage-green"></i>Excel
+                        </span>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-4">
+                        <a href="experience.html" class="hero-btn hero-btn-primary">
+                            Lihat Pengalaman
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="assets/cv/CV_IT Indonesia Laili (2).pdf" download="CV_IT-Indonesia-Laili.pdf" class="hero-btn hero-btn-soft">
+                            Download CV
+                            <i class="fas fa-download"></i>
+                        </a>
+                        <a href="contact.html" class="hero-btn hero-btn-outline">
+                            Hubungi Saya
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="fade-in hidden md:flex justify-center">
+                    <div class="hero-profile-wrap">
+                        <div class="hero-profile-frame">
+                            <img src="assets/Profile/Profile1.png" alt="Foto Profil Laili Salsabila" class="hero-profile-image">
+                            <div class="hero-profile-caption">
+                                <p class="hero-profile-role">Mahasiswa Sistem Informasi</p>
+                                <p class="hero-profile-name">Laili Salsabila</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Detail Section -->
+    <section class="py-20 bg-white/50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="textsection mb-16 fade-in">
+                <p class="text-muted-gold font-medium mb-2">Tentang Saya</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-slate">Profil Lengkap</h2>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Profile Card -->
+                <div class="fade-in">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg text-center">
+                        <div class="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-sage-green/30 to-muted-gold/30 flex items-center justify-center mb-6">
+                            <img src="assets/Profile/Profile1.png" alt="Foto profil Laili Salsabila" class="w-32 h-32 rounded-full object-cover border-2 border-white shadow-md">
+                        </div>
+                        <h3 class="text-2xl font-bold text-dark-slate mb-2">Laili Salsabila</h3>
+                        <p class="text-muted-gold font-medium mb-4">Mahasiswa & Data Enthusiast</p>
+                        <div class="flex justify-center space-x-3">
+                            <a href="#" class="social-icon w-10 h-10 rounded-full bg-dark-slate/5 flex items-center justify-center text-dark-slate">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-icon w-10 h-10 rounded-full bg-dark-slate/5 flex items-center justify-center text-dark-slate">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon w-10 h-10 rounded-full bg-dark-slate/5 flex items-center justify-center text-dark-slate">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bio & Details -->
+                <div class="lg:col-span-2 fade-in">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg mb-6">
+                        <h3 class="text-xl font-bold text-dark-slate mb-4">
+                            <i class="fas fa-quote-left text-muted-gold mr-2"></i>
+                            Biografi
+                        </h3>
+                        <p class="text-dark-slate/80 leading-relaxed mb-4">
+                            Saya adalah mahasiswa aktif di <strong>Universitas Nasional (2023-2027)</strong> dengan ketertarikan kuat pada detail data dan kreativitas visual. Lulusan <strong>SMA 51 Jakarta</strong> ini memiliki semangat tinggi untuk mengembangkan skill di bidang administrasi dan desain.
+                        </p>
+                        <p class="text-dark-slate/80 leading-relaxed">
+                            Saya percaya bahwa kombinasi antara ketelitian dalam mengelola data dan kreativitas dalam desain visual dapat menghasilkan pekerjaan yang berkualitas. Saya selalu bersemangat untuk belajar hal baru dan mengembangkan diri.
+                        </p>
+                    </div>
+                    
+                    <!-- Personal Info Grid -->
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div class="flex items-center space-x-4 p-4 bg-white rounded-xl shadow-sm hover-card">
+                            <div class="w-12 h-12 rounded-full bg-muted-gold/10 flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt text-muted-gold text-lg"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-dark-slate/60">Lokasi</p>
+                                <p class="font-medium text-dark-slate">Dukuh, Jakarta Timur</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4 p-4 bg-white rounded-xl shadow-sm hover-card">
+                            <div class="w-12 h-12 rounded-full bg-sage-green/10 flex items-center justify-center">
+                                <i class="fas fa-envelope text-sage-green text-lg"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-dark-slate/60">Email</p>
+                                <p class="font-medium text-dark-slate">lailisalsabila22@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4 p-4 bg-white rounded-xl shadow-sm hover-card">
+                            <div class="w-12 h-12 rounded-full bg-muted-gold/10 flex items-center justify-center">
+                                <i class="fas fa-graduation-cap text-muted-gold text-lg"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-dark-slate/60">Pendidikan</p>
+                                <p class="font-medium text-dark-slate">Universitas Nasional</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4 p-4 bg-white rounded-xl shadow-sm hover-card">
+                            <div class="w-12 h-12 rounded-full bg-sage-green/10 flex items-center justify-center">
+                                <i class="fas fa-calendar text-sage-green text-lg"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-dark-slate/60">Periode</p>
+                                <p class="font-medium text-dark-slate">2023 - 2027</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Section -->
+            <div class="mt-12 fade-in">
+                <h3 class="text-2xl font-bold text-dark-slate mb-6 text-center">Keahlian & Skills</h3>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
+                    <div class="bg-white rounded-xl p-6 shadow-sm text-center hover-card">
+                        <div class="w-14 h-14 mx-auto rounded-full bg-[#00C4CC]/10 flex items-center justify-center mb-3">
+                            <i class="fab fa-canva text-2xl text-[#00C4CC]"></i>
+                        </div>
+                        <h4 class="font-semibold text-dark-slate">Canva</h4>
+                        <p class="text-sm text-dark-slate/60 mt-1">Desain Grafis</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-sm text-center hover-card">
+                        <div class="w-14 h-14 mx-auto rounded-full bg-[#F24E1E]/10 flex items-center justify-center mb-3">
+                            <i class="fab fa-figma text-2xl text-[#F24E1E]"></i>
+                        </div>
+                        <h4 class="font-semibold text-dark-slate">Figma</h4>
+                        <p class="text-sm text-dark-slate/60 mt-1">UI/UX Design</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-sm text-center hover-card">
+                        <div class="w-14 h-14 mx-auto rounded-full bg-[#E34F26]/10 flex items-center justify-center mb-3">
+                            <i class="fab fa-html5 text-2xl text-[#E34F26]"></i>
+                        </div>
+                        <h4 class="font-semibold text-dark-slate">HTML</h4>
+                        <p class="text-sm text-dark-slate/60 mt-1">Web Development</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-sm text-center hover-card">
+                        <div class="w-14 h-14 mx-auto rounded-full bg-[#3178C6]/10 flex items-center justify-center mb-3">
+                            <i class="fab fa-js text-2xl text-[#3178C6]"></i>
+                        </div>
+                        <h4 class="font-semibold text-dark-slate">TypeScript</h4>
+                        <p class="text-sm text-dark-slate/60 mt-1">Programming</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-sm text-center hover-card">
+                        <div class="w-14 h-14 mx-auto rounded-full bg-[#217346]/10 flex items-center justify-center mb-3">
+                            <i class="fas fa-file-excel text-2xl text-[#217346]"></i>
+                        </div>
+                        <h4 class="font-semibold text-dark-slate">Excel</h4>
+                        <p class="text-sm text-dark-slate/60 mt-1">Data Management</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Summary Section -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12 fade-in">
+                <p class="text-muted-gold font-medium mb-2">Ringkasan</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-slate">Pengalaman Terbaru</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Internship - Des 2025 - Jan 2026 -->
+                <a href="experience.html" class="fade-in">
+                    <div class="hover-card bg-white rounded-xl p-6 shadow-md h-full">
+                        <div class="w-12 h-12 rounded-full bg-muted-gold/10 flex items-center justify-center mb-4">
+                            <i class="fas fa-briefcase text-muted-gold text-xl"></i>
+                        </div>
+                        <span class="text-xs text-muted-gold font-medium">Des 2025 - Jan 2026</span>
+                        <h3 class="font-bold text-dark-slate mt-1 mb-1">Data Entry Staff</h3>
+                        <p class="text-sm text-dark-slate/60">Magang</p>
+                    </div>
+                </a>
+                
+                <!-- Organization - 2025 - 2026 -->
+                <a href="experience.html" class="fade-in">
+                    <div class="hover-card bg-white rounded-xl p-6 shadow-md h-full">
+                        <div class="w-12 h-12 rounded-full bg-sage-green/10 flex items-center justify-center mb-4">
+                            <i class="fas fa-users text-sage-green text-xl"></i>
+                        </div>
+                        <span class="text-xs text-sage-green font-medium">2025 - 2026</span>
+                        <h3 class="font-bold text-dark-slate mt-1 mb-1">Ketua Divisi Entrepreneurship</h3>
+                        <p class="text-sm text-dark-slate/60">HIMASI - Universitas Nasional</p>
+                    </div>
+                </a>
+                
+                <!-- University - 2023 - 2027 -->
+                <a href="experience.html" class="fade-in">
+                    <div class="hover-card bg-white rounded-xl p-6 shadow-md h-full">
+                        <div class="w-12 h-12 rounded-full bg-muted-gold/10 flex items-center justify-center mb-4">
+                            <i class="fas fa-university text-muted-gold text-xl"></i>
+                        </div>
+                        <span class="text-xs text-muted-gold font-medium">2023 - 2027</span>
+                        <h3 class="font-bold text-dark-slate mt-1 mb-1">Universitas Nasional</h3>
+                        <p class="text-sm text-dark-slate/60">Pendidikan - Sedang Ditempuh</p>
+                    </div>
+                </a>
+                
+                <!-- High School - 2020 - 2023 -->
+                <a href="experience.html" class="fade-in">
+                    <div class="hover-card bg-white rounded-xl p-6 shadow-md h-full">
+                        <div class="w-12 h-12 rounded-full bg-sage-green/10 flex items-center justify-center mb-4">
+                            <i class="fas fa-school text-sage-green text-xl"></i>
+                        </div>
+                        <span class="text-xs text-sage-green font-medium">2020 - 2023</span>
+                        <h3 class="font-bold text-dark-slate mt-1 mb-1">SMA Negeri 51 Jakarta</h3>
+                        <p class="text-sm text-dark-slate/60">Pendidikan - Lulus</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="text-center mt-8 fade-in">
+                <a href="experience.html" class="inline-flex items-center text-muted-gold font-medium hover:underline">
+                    Lihat Detail Lengkap
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Contact Section -->
+    <section class="py-20 bg-white/50">
+        <div class="max-w-4xl mx-auto px-6 text-center fade-in">
+            <div class="bg-gradient-to-r from-[#D4AF37]/10 to-[#84A98C]/10 rounded-2xl p-10 md:p-12">
+                <div class="w-16 h-16 mx-auto rounded-full bg-white flex items-center justify-center mb-6 shadow-md">
+                    <i class="fas fa-handshake text-2xl text-[#D4AF37]"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-[#334155] mb-4">Tertarik Berkolaborasi?</h2>
+                <p class="text-[#334155]/80 mb-8 max-w-lg mx-auto">
+                    Jika Anda tertarik untuk bekerja sama atau memiliki pertanyaan, jangan ragu untuk menghubungi saya. Saya terbuka untuk berbagai peluang!
+                </p>
+                <a href="contact.html" class="inline-flex items-center px-8 py-4 bg-[#D4AF37] text-white rounded-xl font-medium shadow-lg shadow-[#D4AF37]/30 hover:bg-[#B8962F] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+                    Hubungi Saya
+                    <i class="fas fa-envelope ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div id="siteFooter"></div>
+
+    <script src="js/layout.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
