@@ -1,17 +1,32 @@
-// Contact form submission feedback
+// Contact form submission to WhatsApp with a structured template
 const contactForm = document.getElementById('contactForm');
-const toast = document.getElementById('toast');
+const whatsappNumber = '6282258247274';
 
-if (contactForm && toast) {
+if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        toast.classList.add('show');
-        contactForm.reset();
+        const formData = new FormData(contactForm);
+        const fullName = (formData.get('name') || '').toString().trim();
+        const email = (formData.get('email') || '').toString().trim();
+        const subject = (formData.get('subject') || '').toString().trim() || '-';
+        const message = (formData.get('message') || '').toString().trim();
 
-        setTimeout(() => {
-            toast.classList.remove('show');
-        }, 4000);
+        const template = [
+            `Nama Lengkap: ${fullName}`,
+            `Email: ${email}`,
+            `Subject: ${subject}`,
+            `Pesan: ${message}`
+        ].join('\n');
+
+        const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(template)}`;
+        const openedTab = window.open(whatsappUrl, '_blank');
+
+        if (!openedTab) {
+            window.location.href = whatsappUrl;
+        }
+
+        contactForm.reset();
     });
 }
 
