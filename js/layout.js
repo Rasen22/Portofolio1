@@ -60,17 +60,17 @@ const fallbackPartials = {
                 &copy; 2026 Laili Salsabila. Dibuat dengan <i class="fas fa-heart text-red-400 mx-1"></i> hati.
             </p>
             <div class="flex items-center gap-3">
-                <a href="https://www.instagram.com/lailisalsabilaa?igsh=c2NycGFva3dhbXNs" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 text-white/80 hover:text-[#D4AF37] hover:border-[#D4AF37]/60 hover:bg-white/10 transition-colors flex items-center justify-center" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/lailisalsabilaa?igsh=c2NycGFva3dhbXNs" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 hover:border-[#D4AF37]/60 hover:bg-white/10 transition-all duration-300 flex items-center justify-center" aria-label="Instagram">
+                    <img src="assets/Icon/instagram-icon.png" alt="Instagram" class="w-5 h-5 object-contain">
                 </a>
-                <a href="https://www.tiktok.com/@la_sal73?_r=1&_t=ZS-94z0CnRqhpU" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 text-white/80 hover:text-[#D4AF37] hover:border-[#D4AF37]/60 hover:bg-white/10 transition-colors flex items-center justify-center" aria-label="TikTok">
-                    <i class="fab fa-tiktok"></i>
+                <a href="https://www.tiktok.com/@la_sal73?_r=1&_t=ZS-94z0CnRqhpU" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 hover:border-[#D4AF37]/60 hover:bg-white/10 transition-all duration-300 flex items-center justify-center" aria-label="TikTok">
+                    <img src="assets/Icon/tiktok.png" alt="TikTok" class="w-5 h-5 object-contain">
                 </a>
-                <a href="https://www.linkedin.com/in/laili-salsabila-169a4b342?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 text-white/80 hover:text-[#D4AF37] hover:border-[#D4AF37]/60 hover:bg-white/10 transition-colors flex items-center justify-center" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
+                <a href="https://www.linkedin.com/in/laili-salsabila-169a4b342?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 hover:border-[#D4AF37]/60 hover:bg-white/10 transition-all duration-300 flex items-center justify-center" aria-label="LinkedIn">
+                    <img src="assets/Icon/linkedin.png" alt="LinkedIn" class="w-5 h-5 object-contain">
                 </a>
-                <a href="https://wa.me/6282258247274" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 text-white/80 hover:text-[#D4AF37] hover:border-[#D4AF37]/60 hover:bg-white/10 transition-colors flex items-center justify-center" aria-label="WhatsApp">
-                    <i class="fab fa-whatsapp"></i>
+                <a href="https://wa.me/6282258247274" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/20 bg-white/5 hover:border-[#D4AF37]/60 hover:bg-white/10 transition-all duration-300 flex items-center justify-center" aria-label="WhatsApp">
+                    <img src="assets/Icon/whatsapp.png" alt="WhatsApp" class="w-5 h-5 object-contain">
                 </a>
             </div>
         </div>
